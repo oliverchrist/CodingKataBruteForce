@@ -16,7 +16,7 @@ class BruteForce {
     private $loginObj;
     private $minAscii = 97;
     private $maxAscii = 122;
-    private $maxVersuche = 10000000;
+    private $maxVersuche = 100000000;
     private $password = array();
 
     public function __construct($username, $password) {

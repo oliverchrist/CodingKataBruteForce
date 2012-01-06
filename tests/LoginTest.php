@@ -21,7 +21,7 @@ class LoginTest extends PHPUnit_Framework_TestCase {
      */
     protected function setUp() {
         $this->object = new Login('oliver','christ');
-        $this->bruteObj = new BruteForce('oliver', 'olli');
+        $this->bruteObj = new BruteForce('oliver', 'oliver');
     }
 
     /**
